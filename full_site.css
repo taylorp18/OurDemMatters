@@ -4,29 +4,43 @@
 h1{
 	font-family: Avenir Next, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
+
+h3{
+	color: #313030;
+}
+
 body {
 	box-sizing: border-box;
 	padding-left: 20px;
+	font-family: Avenir Next, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	background-color: #83B9D1
 }
 
-button{
-	width: 10%;
-	border-radius: 4px;
+.button{
+	width: 15%;
+	border-radius: 5px;
+	font-family: Avenir Next, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 14px;
+	border: 0px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
 }
 
-button:hover{
-	background-color: blueviolet;
-	opacity: .8;
+.button:hover{
+	background-color: blueviolet !important;
+	color: #CDCDCD !important;
+	opacity: .9;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #red_tag{
-	background-color: #DF0D11;
+	background-color: #D11309;
 	box-sizing: border-box;
 	padding: 10px;
+	color: #000000
 }
 #blue_tag{
 	background-color: cornflowerblue;
+	color: #000000;
 	box-sizing: border-box;
 	padding: 10px;
 }
