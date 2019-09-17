@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1{
+	font-family: Avenir Next, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+body {
+	box-sizing: border-box;
+	padding-left: 20px;
+}
+
+button{
+	width: 10%;
+	border-radius: 4px;
+}
+
+button:hover{
+	background-color: blueviolet;
+	opacity: .8;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#red_tag{
+	background-color: #DF0D11;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#blue_tag{
+	background-color: cornflowerblue;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
